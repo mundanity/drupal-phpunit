@@ -1,0 +1,22 @@
+{
+    "name": "mundanity/drupal-phpunit",
+    "description": "Provides PHPUnit base test cases for persistence tests in Drupal.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Owen Loy",
+            "email": "owen@mundanity.com"
+        }
+    ],
+    "require": {
+        "php": "~5.5",
+        "psr/log": "~1.0.0"
+    },
+    "autoload": {
+        "psr-4": {"Drupal\\PhpUnit\\": "src/"}
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "bin": ["bootstrap.php"]
+}
